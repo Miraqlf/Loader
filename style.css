@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: violet;
+}
+
+.loader {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 16px solid #bdc3c7;
+  width: 120px;
+  height: 120px;
+  border-top-color: #1abc9c;
+  border-bottom-color: #3498db;
+  border-radius: 200px;
+  animation: charger 4s linear infinite;
+}
+
+@keyframes charger {
+  0% {
+    transform: rotate(0deg) scale(1);
+    border-top-color: beige;
+    border-bottom-color: brown;
+  }
+  25% {
+    border-top-color: brown;
+    border-bottom-color: beige;
+  }
+  50% {
+    transform: rotate(360deg) scale(1.15);
+    border-top-color: red;
+    border-bottom-color: blue;
+  }
+  75% {
+    border-top-color: black;
+    border-bottom-color: white;
+  }
+  100% {
+    transform: rotate(720deg) scale(1);
+    border-top-color: green;
+    border-bottom-color: yellow;
+  }
+}
