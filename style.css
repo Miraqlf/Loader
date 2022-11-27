@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: violet;
+  background-color: #234245;
 }
 
 .loader {
@@ -14,8 +14,8 @@ body {
   border: 16px solid #bdc3c7;
   width: 120px;
   height: 120px;
-  border-top-color: #1abc9c;
-  border-bottom-color: #3498db;
+  border-top-color: #f1d3b3;
+  border-bottom-color: #8b7e74;
   border-radius: 200px;
   animation: charger 4s linear infinite;
 }
@@ -24,7 +24,7 @@ body {
   0% {
     transform: rotate(0deg) scale(1);
     border-top-color: beige;
-    border-bottom-color: brown;
+    border-bottom-color: #f3efe0;
   }
   25% {
     border-top-color: brown;
